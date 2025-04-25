@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+  <h2 class="heading">Your Order Summary</h2>
+<div class="table-container">
+  <table id="cart-table">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Price (Each)</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Will be filled by JS -->
+    </tbody>
+  </table>
+</div>
+
+  <div class="checkout-form">
+    <h2 id="order-total">Total: $0</h2>
+
+    <form id="buy-form">
+      <h3>Personal Information</h3>
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+    
+      <h3>Delivery Details</h3>
+      <input type="text" id="address" placeholder="Address" required>
+      <input type="text" id="city" placeholder="City" required>
+      <input type="text" id="postal" placeholder="Postal Code" required>
+    
+      <h3>Payment Information</h3>
+      <input type="text" id="card" placeholder="Card Number" required>
+      <input type="text" id="expiry" placeholder="Expiry Date (MM/YY)" required>
+      <input type="text" id="cvv" placeholder="CVV" required>
+      
+      <button type="submit" class="buy-now-btn">Buy Now</button>
+    </form>
+  </div>
+  <script src="checkout.js"></script>
+</body>
+</html>

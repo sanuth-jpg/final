@@ -1,0 +1,96 @@
+
+.hh{
+    padding-top: 50px;
+}
+.glow{
+    padding: 50px;
+    margin: 20px auto;
+    width: 70%;
+    background-color:#6f43a7;
+    border: #6f43a7;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #6f43a7;
+    
+}
+.intro{
+    text-align: justify;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin-inline: auto;
+}
+.heading{
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+.price {
+    background-color: #FF5722;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 40px;
+    visibility: hidden; 
+    margin-top: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.game-card {
+    width: 93%;
+    margin-bottom: 40px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-image {
+    position: relative;
+    width: 429px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.game-details {
+    padding: 20px;
+}
+
+.game-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.game-card:hover .price {
+    visibility: visible;
+}
+
+.game-meta {
+    margin: 5px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px){
+    .glow{
+        padding: 50px 10px;
+        width: 92%;
+    }
+    .sec{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .game-card{
+        width: 98%;
+    }
+    .logo{
+        width: 300px;
+    }
+}

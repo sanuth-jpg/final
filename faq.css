@@ -1,0 +1,139 @@
+.head{
+    padding-top: 75px;
+    font-size: 60px;
+    text-align: center;
+}
+.cont {
+    display: flex;
+    padding-top: 15px;
+    background-color: black;
+}
+.img2 { 
+    width: 880px;
+    height: 570px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 50px 50px;
+    border-radius: 8px;
+    width: 100%;
+    margin-left: 10px;
+    max-width: 400px;
+}
+
+form h2 {
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+input, textarea {
+    width: 100% ;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.topic{
+    padding-top: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+#accordian{
+    margin: 100px auto;
+    margin-top: 20px;
+    width: 80% ;
+}
+#accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 6px ;
+    background: linear-gradient(135deg,#6f43a7 , #8e4cea, #925ae0);
+}
+
+#accordian li label{
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#accordian li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+
+}
+#accordian label+input[type="radio"]{
+    display: none;
+}
+
+#accordian .content{
+    padding: 0 30px;
+    line-height: 30px;
+    font-size: 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordian label+input[type="radio"]:checked + .content{
+    max-height: 500px;
+}
+
+@media (max-width: 1024px) {
+#accordian{
+    width: 80%;
+}
+.img2{
+    width: 99%;
+    height: auto;
+    margin: 5px auto;
+}
+.cont{
+    flex-direction: column;
+}
+.form-container{
+    width: 70%;
+}
+.head{
+    padding-top: 80px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+    color: #A50000;
+}
+
+#accordian .content{
+    font-size: 15px;
+}
+#accordian li label{
+    font-size: 30px;
+}
+}
+

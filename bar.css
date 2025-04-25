@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 10px 20px;
+}
+.menu-icon{
+    visibility: hidden;
+}
+/* Logo */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    flex-grow: 1;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #43b3ae; /* Hover effect color */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+
+    .navbar{
+        padding: 0px 10px 10px 10px; 
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        visibility: visible;
+        font-size: 2.5rem;
+    }
+}
+
+
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer Logo */
+.footer-logo span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #43b3ae;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Footer Navigation Links */
+.footer-nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav-links li {
+    margin-left: 20px;
+}
+
+.footer-nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.footer-nav-links a:hover {
+    color: #43b3ae; /* Hover effect color */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-nav-links {
+        margin: 10px 10px 0px 10px;
+
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 18px;
+    }
+
+    .footer-nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

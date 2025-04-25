@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Stop</title>
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="bar.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="IMAGES/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="IMAGES/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="IMAGES/favicon-16x16.png">
+    <link rel="manifest" href="IMAGES/site.webmanifest">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+         <div class="logo">Game Hub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="upcomin_gam.html">Upcoming</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="market.html">Buy</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+         </nav>
+    </header>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+<h1 class="head">Have a question? Drop a line below!</h1>
+<div class="cont">
+    <div class="pic"><img class="img2" src="IMAGES/ghost.jpg" alt="funny picture from Call Of Duty"></div>
+    <div class="form-container">
+        <form action="#" method="post">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<h1 class="topic">Ferquently Asked Question</h1>
+<ul id="accordian">
+    <li>
+        <label for="first">What is your return policy for video games?<span>&#x3e;</span></label>
+        <input type="radio" name="accordian" id="first" checked>
+        <div class="content">
+            <p>We offer a 14-day return policy for unopened games with a receipt. If the game is opened, we can offer an exchange or store credit. Please ensure the product is in its original condition and packaging.</p>
+        </div>
+    </li>
+    <li>
+        <label for="second"> Do you sell pre-owned games and consoles?<span>&#x3e;</span></label>
+        <input type="radio" name="accordian" id="second">
+        <div class="content">
+            <p>Yes, we sell pre-owned games and consoles. All pre-owned items are tested and certified to be in good working condition. You can also trade in your old games and consoles for store credit or cash.</p>
+        </div>
+    </li>
+    <li>
+        <label for="third">Can I pre-order upcoming game releases?<span>&#x3e;</span></label>
+        <input type="radio" name="accordian" id="third">
+        <div class="content">
+            <p>Absolutely! We offer pre-orders for most major upcoming game releases. You can place a pre-order in-store or on our website to secure your copy. Pre-orders often come with exclusive bonuses or discounts.</p>
+        </div>
+    </li>
+    <li>
+        <label for="forth">Do you offer any membership or loyalty programs?<span>&#x3e;</span></label>
+        <input type="radio" name="accordian" id="forth">
+        <div class="content">
+            <p> Yes, we have a loyalty program where you earn points for every purchase. These points can be redeemed for discounts on future purchases. Members also receive exclusive offers and early access to sales.</p>
+        </div>
+    </li>
+    <li>
+        <label for="fifth">What platforms do you support for repairs and services?<span>&#x3e;</span></label>
+        <input type="radio" name="accordian" id="fifth">
+        <div class="content">
+            <p>We provide repair services for major consoles, including PlayStation, Xbox, and Nintendo Switch. Our services cover issues like disk drive repairs, controller fixes, and more. Please bring your device to the store for an evaluation.</p>
+        </div>
+    </li>
+</ul>
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <span>Game Hub</span>
+        </div>
+        <ul class="footer-nav-links">
+            <li><a href="Mainpage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="upcomin_gam.html">Upcoming</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

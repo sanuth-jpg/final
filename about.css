@@ -1,0 +1,152 @@
+
+.topic {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+.para{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: justify;
+}
+
+.topic1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.img1{
+    width: 85%;
+    height: auto;
+    padding-top: 10px;
+   
+}
+.imgcon{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    box-shadow: 2px 2px 30px #925ae0;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    max-width: 800px;
+    border: 5px solid #6f43a7;
+    border-radius: 5px;
+    margin-left: 250px;
+    padding-right: 10px;
+    background-color: #6f43a7;
+}
+
+.img3{
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flex {
+    margin-right: 50px;
+    margin-left: 10px;
+    color: white;
+}
+.item2{
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    background-color: #dfcfb7;
+    color: #36454f;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin: 20px 0px 0px 0px;
+    min-width: 250px;
+  }
+
+  .img2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 224px;
+    height: 224px;
+  }
+  .info {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+.container1{
+    margin: 0px 100px 0px 100px;
+    border: 2px solid #6f43a7;
+    border-radius: 15px;
+    background: linear-gradient(135deg,#6f43a7 , #8e4cea, #925ae0);
+
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: white;
+}
+th,td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 10px;
+}
+th{ font-size: 30px;}
+td{ font-size: 20px;}
+
+
+/* Mobile View */
+@media (max-width: 768px){
+    .para{
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .container{
+        font-size: 9px;
+        margin: 10px 0px;
+        padding: 0px 10px 0px 0px;
+    }
+    .item2{
+        width: 169px;
+        height: 110px;
+    }
+    .img2 {
+        width: 100px;
+        height: 100px;
+        margin-top: 4px;
+    }
+    .img3{
+        width:180px ;
+        height:180px ;
+    }
+    .info{
+        font-size: 10px;
+        padding-bottom: 3px;
+    }
+    .name{ font-size: 12px;}
+
+    .flex{
+     margin-right: 10px;
+     margin-top: 10px;
+     width: 90%;
+    }
+    .container1{
+        margin: 0px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    table {
+        width: 100%;
+    }
+    td,th { font-size: 14px;}
+  }

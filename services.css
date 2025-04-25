@@ -1,0 +1,158 @@
+.topic{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #6f43a7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.line{
+    height: 5px;
+    margin: 0px 150px auto;
+    border: 1px solid #6f43a7;
+    background-color: #6f43a7;
+    box-shadow: 2px 2px 30px #6f43a7;
+}
+
+.container{
+    box-shadow: 2px 2px 30px #925ae0;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    max-width: 900px;
+    border: 5px solid #6f43a7;
+    border-radius: 5px;
+    margin-left: 250px;
+    padding-right: 10px;
+    background-color: #6f43a7;
+}
+.img3{
+    width: 400px;
+    height: 400px;
+    padding: 20px 0px 20px 50px;
+}
+.flex {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    color: white;
+}
+.name{
+    font-size: 38px;
+}
+.dis{
+    padding: 10px 0px 0px 20px;
+    font-size: 20px;
+    width: 450px;
+    text-align: justify;
+}
+.info{
+    padding-top: 20px;
+    padding-left: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.sec{
+    background-color: #6f43a7;
+    margin-top: 30px ;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    
+}
+.topic1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main {
+    display: flex;
+    padding-top: 75px;
+}
+.item1{ padding-top: 30px;
+}
+
+.img2 { 
+    width: 550px;
+    height: 570px;
+}
+.topic2{
+    margin-left: 250px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-size: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (max-width: 1025px) {
+.topic {
+    font-size: 40px; /* Smaller font size for mobile */
+}
+
+.container {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    width: 97%;
+}
+.name{
+    font-size: 35px;
+}
+.dis{
+    width: 100%;
+}
+.info{
+    font-size: 20px;
+}
+
+.img3 {
+    width: 90%;
+    height: auto;
+    padding: 20px 15px;
+    
+}
+
+.flex {
+    padding: 0px;
+}
+
+.sec {
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.topic1 {
+    font-size: 40px; /* Adjust font size for mobile */
+}
+
+.main {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.item2 {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+    height: auto;
+}
+
+.topic2 {
+    font-size: 28px;
+    margin: 0px;
+
+}
+
+}

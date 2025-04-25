@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Stop</title>
+    <link rel="stylesheet" href="market.css">
+    <link rel="stylesheet" href="bar.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="IMAGES/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="IMAGES/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="IMAGES/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+         <div class="logo">Game Hub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="upcomin_gam.html">Upcoming</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="market.html">Buy</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+         </nav>
+    </header>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+    <div class="topbar">
+        <a href="cart.html" class="icon" data-text="Cart">🛒 Cart</a>
+        <a href="wishlist.html" class="icon" data-text="Wishlist">❤️ Wishlist</a>
+    </div>
+
+  <h1 class="heading">Processors</h1>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="img/img1.webp" alt="Product 1">
+      <h2>AMD Ryzen 5 7600X</h2>
+      <p>Price: $230</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img2.jpeg" alt="Product 2">
+      <h2>AMD Ryzen 7 7700X	</h2>
+      <p>Price: 	$340</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img3.jpg" alt="Product 3">
+      <h2>AMD Ryzen 9 7900X	</h2>
+      <p>Price: $430</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img4.webp" alt="Product 4">
+      <h2>Intel Core i5-13600K	</h2>
+      <p>Price: $310</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img5.jpg" alt="Product 5">
+      <h2>Intel Core i7-13700K	</h2>
+      <p>Price: 	$420</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img6.jpg" alt="Product 6">
+      <h2>Intel Core i9-13900K</h2>
+      <p>Price: $580</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <h1 class="heading1">Graphic Cards</h1>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="img/img7.png" alt="Product 1">
+      <h2>NVIDIA RTX 4060	</h2>
+      <p>Price: $299</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img8.png" alt="Product 2">
+      <h2>AMD Radeon RX 7600</h2>
+      <p>Price: 	$269</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img9.png" alt="Product 3">
+      <h2>NVIDIA RTX 4070</h2>
+      <p>Price: $549</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img10.png" alt="Product 4">
+      <h2>AMD Radeon RX 7800 XT		</h2>
+      <p>Price: $499</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img11.webp" alt="Product 5">
+      <h2>NVIDIA RTX 4080 Super	</h2>
+      <p>Price: 		$999</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img12.png" alt="Product 6">
+      <h2>NVIDIA RTX 4090	</h2>
+      <p>Price: 	$1599</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <h1 class="heading1">Motherboards</h1>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="img/img13.png" alt="Product 1">
+      <h2>ASUS ROG Strix B650-E (AM5)	</h2>
+      <p>Price: $240</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img14.png" alt="Product 2">
+      <h2>MSI MAG B660 Tomahawk (LGA1700)	</h2>
+      <p>Price: 	$180</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img15.jpeg" alt="Product 3">
+      <h2>Gigabyte Z790 AORUS Elite AX</h2>
+      <p>Price: $260</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img16.jpg" alt="Product 4">
+      <h2>ASRock B550 Steel Legend (AM4)</h2>
+      <p>Price: $140</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img17.jpeg" alt="Product 5">
+      <h2>ASUS PRIME Z790-P (LGA1700)	</h2>
+      <p>Price: 		$190</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img18.png" alt="Product 6">
+      <h2>MSI MEG X670E ACE (AM5)</h2>
+      <p>Price: 	$500</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <h1 class="heading1">Memory</h1>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="img/img19.png" alt="Product 1">
+      <h2>Corsair Vengeance DDR5 32GB 6000MHz	</h2>
+      <p>Price: $120</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img20.webp" alt="Product 2">
+      <h2>G.Skill Ripjaws V DDR4 16GB 3600MHz</h2>
+      <p>Price: 	$55</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img21.jpg" alt="Product 3">
+      <h2>Kingston Fury Beast DDR5 32GB 5600MHz</h2>
+      <p>Price: $110</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img22.jpg" alt="Product 4">
+      <h2>TEAMGROUP T-Force Delta RGB 32GB DDR5</h2>
+      <p>Price: $130</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <h1 class="heading1">Storage Devices</h1>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="img/img23.jpg" alt="Product 1">
+      <h2>Samsung 970 EVO+ NVMe</h2>
+      <p>Price: $75</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img24.webp" alt="Product 2">
+      <h2>Crucial P3 NVMe SSD</h2>
+      <p>Price: 	$60</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img25.jpeg" alt="Product 3">
+      <h2>Western Digital Blue HDD	</h2>
+      <p>Price: $50</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img26.png" alt="Product 4">
+      <h2>Seagate Barracuda	SSD</h2>
+      <p>Price: $95</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img27.webp" alt="Product 5">
+      <h2>SanDisk Ultra Dual Drive</h2>
+      <p>Price: 		$20</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+
+    <div class="product">
+      <img src="img/img28.jpg" alt="Product 6">
+      <h2>Verbatim CD-R 700MB</h2>
+      <p>Price: 	$15</p>
+      <input type="number" value="1" min="1" class="quantity">
+      <button class="add-cart">Add to Cart</button>
+      <button class="add-wishlist">Add to Wishlist</button>
+    </div>
+  </div>
+
+  <script src="market.js"></script>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <span>Game Hub</span>
+        </div>
+        <ul class="footer-nav-links">
+            <li><a href="Mainpage.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="upcomin_gam.html">Upcoming</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+</footer>   
+</body>
+</html>

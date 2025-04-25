@@ -1,0 +1,132 @@
+.main {
+    display: flex;
+    padding-top: 75px;
+    background-color: black;
+}
+.item1{ padding-top: 70px;}
+.topic{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.para{
+    padding-left: 40px;
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    padding-right: 70px;
+}
+.img2 { 
+    width: 550px;
+    height: 570px;
+}
+.container{ 
+    background-color:#6f43a7 ;
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.img3{
+    width: 100px;
+    height: auto;
+}
+.topic2{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.game-card {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-image {
+    position: relative;
+    width: 589px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.game-details {
+    padding: 20px;
+}
+
+.game-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.game-description {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.game-card:hover .game-description {
+    display: block;
+}
+
+.game-meta {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.game-meta p {
+    margin: 5px 0;
+}
+
+
+
+@media (max-width: 768px){
+    .img3{
+        width: 40px;
+        height: auto;
+    }
+    .topic{
+        font-size: 43px;
+        padding-left: 0px;
+    }
+    .para{
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 30px;
+    }
+    .main{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+
+    .item1{ 
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .img2{
+        width: 375px;
+        height: 380px;
+    }
+    .game-card{
+        flex-wrap: wrap;
+    }
+    .game-image{
+        width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <div class="topbar">
+        <a href="market.html" class="icon">🏠</a>
+        <a href="wishlist.html" class="icon">❤️</a>
+      </div>
+
+  <h1 class="heading">Your Cart</h1>
+
+  <div class="table-container">
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Price (Each)</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS will add rows here -->
+      </tbody>
+    </table>
+  </div>
+
+  <button class="clear-cart-btn" onclick="clearCart()">Clear Cart</button>
+
+  <div class="checkout-section">
+    <h2 id="final-total">Total: $0</h2>
+    <a href="checkout.html" class="checkout-btn" id="checkout-link">Checkout</a>
+    <div class="favourite-order-buttons">
+      <button onclick="saveAsFavouriteOrder()">Add to Favourite</button>
+      <button onclick="applyFavouriteOrder()">Apply Favourite</button>
+    </div>
+    
+
+  </div>
+  <script src="cart.js"></script>
+</body>
+</html>
